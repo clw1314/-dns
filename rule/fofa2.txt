@@ -1,0 +1,1 @@
+server=="cloudflare" && port=="443" && header="Forbidden" && country!="CN"&& (country=="JP" || country=="HK")&& domain=""&& asn!="9269"&& (cert="" || cert="cloudflare") 
